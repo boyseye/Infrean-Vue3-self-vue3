@@ -1,0 +1,13 @@
+ ### VS CODE Plugin ###
+Auto Rename Tag
+CSS Peek
+html to css
+html css support
+liveserver
+eslint
+vetur(vue2), volar(vue3)
+vue vscode snippents
+
+
+## chrome plungin  ### 
+vue devtools
