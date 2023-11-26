@@ -8,18 +8,4 @@ module.exports = {
     ecmaVersion: 'latest'
   },
 
-  rules: {
-    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    {
-      "prettier/prettier": [
-        "error",
-        {
-          tabWidth:2,
-          singleQuote: true,
-          useTabs : true
-        },
-
-      ]
-    }
-  }
 }
