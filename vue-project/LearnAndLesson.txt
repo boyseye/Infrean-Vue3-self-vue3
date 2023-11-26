@@ -1,0 +1,21 @@
+eslint function과 arrow fucntion등 ## 코드 ## 일관성
+prettier 들여쓰기와 tab등 ### text #### format등을 일관되게 
+
+eslint가 잘 먹지 않는경우 저장과 텍스트 에디터  껏다켜다를 반복해보자 
+
+eslint와 prettier의 충돌을 피하기 위해서는 eslintrc.cjs 파일에 
+  "rules": {
+    "prettier/prettier"
+  }
+  를 추가한다. 
+
+  eslint 설정,prettier, 
+
+  npm run  lint
+
+
+tabsize 2 --> 잘먹지 않는다면  Ctrl ,  해서 vscode에서 제거  prettier 플러그인에서 사용안함으로 표시
+
+왜냐하면 나는 eslint-prettier plugin에서 tabsize를 지정했기때문이다...
+
+  
